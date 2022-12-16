@@ -1,6 +1,7 @@
 terplot
 ---
 Plot terminal output (numbers) in real time.
+![demo](https://user-images.githubusercontent.com/22083538/208100103-580f2bc3-ad75-4dc8-ac7a-c8509414689e.gif)
 
 A python script to plot multiple channels of time-series data from terminal output.
 Very useful for debugging setpoint vs system output in robotic applications, e.g. PID controllers.
