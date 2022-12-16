@@ -1,3 +1,7 @@
+terplot
+---
+Plot terminal output (numbers) in real time.
+
 A python script to plot multiple channels of time-series data from terminal output.
 Very useful for debugging setpoint vs system output in robotic applications, e.g. PID controllers.
 
@@ -21,10 +25,6 @@ You can easily debug a remote device with ssh connection, e.g.:
 ```bash
 ssh your_remote@192.168.2.9 'sudo ./your_project/your_program' | python3 \Desktop/plot_script.py -t 100 -c 4,13
 ```
-
-An Mo
-2022-Dec-16
-moan1992@gmail.com
 
 Adapted from Manash Pratim Das
 https://manashpratim.com/plot-realtime-terminal-data
